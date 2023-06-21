@@ -10,7 +10,7 @@ const App = ({cityName, weather, setData}) => {
   const [weatherData, setWeatherData] = useState({})
   const [city, setCity] = useState('delhi')
 
-  const API_KEY = 'b34c5d088d11326d46dfc0885b4a6dca'
+  const API_KEY = '*************************'
 
   useEffect(()=>{
     // const getData = async () => {
